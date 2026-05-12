@@ -1,0 +1,12 @@
+# 构建产物和缓存
+products/
+build/
+.hvigor/
+.idea/
+*.log
+*.cache.json
+.deveco/
+
+# 系统文件
+Thumbs.db
+.DS_Store

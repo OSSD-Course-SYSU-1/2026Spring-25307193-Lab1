@@ -1,0 +1,52 @@
+{
+  "color": [
+    {
+      "name": "type_tabs_font_selected",
+      "value": "#ED6F21"
+    },
+    {
+      "name": "type_tabs_font",
+      "value": "#99000000"
+    },
+    {
+      "name": "button_background_1",
+      "value": "#ED6F21"
+    },
+    {
+      "name": "button_background_2",
+      "value": "#0D000000"
+    },
+    {
+      "name": "result_background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "search_header_background",
+      "value": "#0D000000"
+    },
+    {
+      "name": "search_header_img_color",
+      "value": "#99000000"
+    },
+    {
+      "name": "hot_video_list_divider_color",
+      "value": "#0D000000"
+    },
+    {
+      "name": "search_placeholder",
+      "value": "#99ffffff"
+    },
+    {
+      "name": "search_border",
+      "value": "#26FFFFFF"
+    },
+    {
+      "name": "search_background",
+      "value": "#1AFFFFFF"
+    },
+    {
+      "name": "search_header_border_tv",
+      "value": "#33FFFFFF"
+    }
+  ]
+}

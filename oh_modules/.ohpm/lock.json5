@@ -1,0 +1,150 @@
+{
+  "lockVersion": "1.0",
+  "settings": {
+    "resolveConflict": true,
+    "resolveConflictStrict": false,
+    "installAll": true
+  },
+  "overrides": {},
+  "overrideDependencyMap": {},
+  "modules": {
+    ".": {
+      "name": "",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "common/base": {
+      "name": "base",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/home": {
+      "name": "home",
+      "dependencies": {
+        "@ohos/commons": {
+          "specifier": "file:common/base",
+          "version": "file:common/base"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/search": {
+      "name": "search",
+      "dependencies": {
+        "@ohos/commons": {
+          "specifier": "file:common/base",
+          "version": "file:common/base"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/videoDetail": {
+      "name": "videoDetail",
+      "dependencies": {
+        "@ohos/commons": {
+          "specifier": "file:common/base",
+          "version": "file:common/base"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "products/default": {
+      "name": "default",
+      "dependencies": {
+        "@ohos/commons": {
+          "specifier": "file:common/base",
+          "version": "file:common/base"
+        },
+        "@ohos/videoDetail": {
+          "specifier": "file:features/videoDetail",
+          "version": "file:features/videoDetail"
+        },
+        "@ohos/home": {
+          "specifier": "file:features/home",
+          "version": "file:features/home"
+        },
+        "@ohos/search": {
+          "specifier": "file:features/search",
+          "version": "file:features/search"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "products/tv": {
+      "name": "tv",
+      "dependencies": {
+        "@ohos/commons": {
+          "specifier": "file:common/base",
+          "version": "file:common/base"
+        },
+        "@ohos/videoDetail": {
+          "specifier": "file:features/videoDetail",
+          "version": "file:features/videoDetail"
+        },
+        "@ohos/home": {
+          "specifier": "file:features/home",
+          "version": "file:features/home"
+        },
+        "@ohos/search": {
+          "specifier": "file:features/search",
+          "version": "file:features/search"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    }
+  },
+  "packages": {
+    "@ohos/commons@file:common/base": {
+      "storePath": "common/base",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/search@file:features/search": {
+      "storePath": "features/search",
+      "dependencies": {
+        "@ohos/commons": "common/base"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/videoDetail@file:features/videoDetail": {
+      "storePath": "features/videoDetail",
+      "dependencies": {
+        "@ohos/commons": "common/base"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/home@file:features/home": {
+      "storePath": "features/home",
+      "dependencies": {
+        "@ohos/commons": "common/base"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    }
+  }
+}

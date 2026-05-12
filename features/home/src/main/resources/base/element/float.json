@@ -1,0 +1,68 @@
+{
+  "float": [
+    {
+      "name": "banner_height_sm",
+      "value": "368vp"
+    },
+    {
+      "name": "banner_height_md",
+      "value": "194vp"
+    },
+    {
+      "name": "banner_height_lg",
+      "value": "242vp"
+    },
+    {
+      "name": "banner_height_xl",
+      "value": "169vp"
+    },
+    {
+      "name": "banner_text_1_font_sm",
+      "value": "18fp"
+    },
+    {
+      "name": "banner_text_1_font_md",
+      "value": "14fp"
+    },
+    {
+      "name": "banner_text_1_font_lg",
+      "value": "24fp"
+    },
+    {
+      "name": "banner_text_2_font_sm",
+      "value": "11fp"
+    },
+    {
+      "name": "banner_text_2_font_md",
+      "value": "11fp"
+    },
+    {
+      "name": "banner_text_2_font_lg",
+      "value": "17fp"
+    },
+    {
+      "name": "banner_text_1_height_sm",
+      "value": "24vp"
+    },
+    {
+      "name": "banner_text_1_height_md",
+      "value": "19vp"
+    },
+    {
+      "name": "banner_text_1_height_lg",
+      "value": "32vp"
+    },
+    {
+      "name": "banner_text_2_height_sm",
+      "value": "15vp"
+    },
+    {
+      "name": "banner_text_2_height_md",
+      "value": "15vp"
+    },
+    {
+      "name": "banner_text_2_height_lg",
+      "value": "23vp"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "color": [
+    {
+      "name": "episodes_background",
+      "value": "#0D000000"
+    },
+    {
+      "name": "episodes_border_for_tv",
+      "value": "#26FFFFFF"
+    },
+    {
+      "name": "shadow_color",
+      "value": "#2600001E"
+    },
+    {
+      "name": "episode_row_background",
+      "value": "#33FFFFFF"
+    },
+    {
+      "name": "font_selected",
+      "value": "#ED6F21"
+    },
+    {
+      "name": "video_detail_background_for_tv",
+      "value": "#FF202224"
+    },
+    {
+      "name": "time_slider_select_color",
+      "value": "#ED6F21"
+    }
+  ]
+}
