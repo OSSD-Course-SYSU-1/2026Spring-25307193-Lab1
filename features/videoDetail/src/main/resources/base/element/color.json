@@ -27,6 +27,30 @@
     {
       "name": "time_slider_select_color",
       "value": "#ED6F21"
+    },
+    {
+      "name": "primary_color",
+      "value": "#007DFF"
+    },
+    {
+      "name": "secondary_text_color",
+      "value": "#99000000"
+    },
+    {
+      "name": "hint_text_color",
+      "value": "#66000000"
+    },
+    {
+      "name": "error_color",
+      "value": "#FF3B30"
+    },
+    {
+      "name": "background_color",
+      "value": "#F5F5F5"
+    },
+    {
+      "name": "tag_background_color",
+      "value": "#1A007DFF"
     }
   ]
 }

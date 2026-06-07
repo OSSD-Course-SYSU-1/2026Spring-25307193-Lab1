@@ -22,6 +22,7 @@ import { DetailConstants } from '../constants/DetailConstants';
 import { VideoPlayer } from './VideoPlayer';
 import { FooterEpisodes } from './FooterEpisodes';
 import { SideEpisodes } from './SideEpisodes';
+import { AISummary } from './AISummary';
 
 const TAG = '[VideoDetailView]';
 
@@ -88,6 +89,14 @@ export struct VideoDetailView {
         .backgroundColor(Color.Black)
         .height(this.isFullScreen ? '100%' : 'auto')
         .width('100%')
+
+        // AI视频总结组件
+        AISummary({
+          videoIdProp: 'video1',
+          videoTitleProp: '华为春季旗舰新品发布会'
+        })
+          .margin({ top: '16vp' })
+          .visibility(this.isFullScreen ? Visibility.None : Visibility.Visible)
 
         RelatedList({
           relatedVideoHeight: this.relatedVideoHeight,

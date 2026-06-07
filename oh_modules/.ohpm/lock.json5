@@ -116,16 +116,6 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "@ohos/home@file:features/home": {
-      "storePath": "features/home",
-      "dependencies": {
-        "@ohos/commons": "common/base"
-      },
-      "dynamicDependencies": {},
-      "dev": false,
-      "dynamic": false,
-      "maskedByOverrideDependencyMap": false
-    },
     "@ohos/search@file:features/search": {
       "storePath": "features/search",
       "dependencies": {
@@ -138,6 +128,16 @@
     },
     "@ohos/videoDetail@file:features/videoDetail": {
       "storePath": "features/videoDetail",
+      "dependencies": {
+        "@ohos/commons": "common/base"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/home@file:features/home": {
+      "storePath": "features/home",
       "dependencies": {
         "@ohos/commons": "common/base"
       },

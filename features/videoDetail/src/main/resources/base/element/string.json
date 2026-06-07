@@ -75,6 +75,58 @@
     {
       "name": "speed",
       "value": "超清"
+    },
+    {
+      "name": "ai_summary_title",
+      "value": "AI视频总结"
+    },
+    {
+      "name": "ai_summary_loading",
+      "value": "AI正在分析视频内容..."
+    },
+    {
+      "name": "ai_summary_generate",
+      "value": "生成AI总结"
+    },
+    {
+      "name": "ai_summary_regenerate",
+      "value": "重新生成"
+    },
+    {
+      "name": "ai_summary_key_points",
+      "value": "关键要点"
+    },
+    {
+      "name": "ai_summary_tags",
+      "value": "标签"
+    },
+    {
+      "name": "ai_summary_category",
+      "value": "分类"
+    },
+    {
+      "name": "ai_summary_duration",
+      "value": "时长"
+    },
+    {
+      "name": "ai_summary_generated_time",
+      "value": "生成时间"
+    },
+    {
+      "name": "ai_summary_error",
+      "value": "AI总结生成失败，请重试"
+    },
+    {
+      "name": "ai_summary_empty",
+      "value": "暂无AI总结，点击按钮生成"
+    },
+    {
+      "name": "expand_more",
+      "value": "显示更多"
+    },
+    {
+      "name": "collapse",
+      "value": "收起"
     }
   ]
 }

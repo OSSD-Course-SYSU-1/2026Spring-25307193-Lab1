@@ -187,4 +187,59 @@ export class DetailConstants {
    * Page name for video.
    */
   public static readonly PAGE_NAME_FOR_VIDEO: string = 'videoDetail';
+
+  /**
+   * AI summary section title.
+   */
+  public static readonly AI_SUMMARY_TITLE: ResourceStr = $r('app.string.ai_summary_title');
+
+  /**
+   * AI summary loading text.
+   */
+  public static readonly AI_SUMMARY_LOADING: ResourceStr = $r('app.string.ai_summary_loading');
+
+  /**
+   * AI summary generate button text.
+   */
+  public static readonly AI_SUMMARY_GENERATE: ResourceStr = $r('app.string.ai_summary_generate');
+
+  /**
+   * AI summary regenerate button text.
+   */
+  public static readonly AI_SUMMARY_REGENERATE: ResourceStr = $r('app.string.ai_summary_regenerate');
+
+  /**
+   * AI summary key points title.
+   */
+  public static readonly AI_SUMMARY_KEY_POINTS: ResourceStr = $r('app.string.ai_summary_key_points');
+
+  /**
+   * AI summary tags title.
+   */
+  public static readonly AI_SUMMARY_TAGS: ResourceStr = $r('app.string.ai_summary_tags');
+
+  /**
+   * AI summary category title.
+   */
+  public static readonly AI_SUMMARY_CATEGORY: ResourceStr = $r('app.string.ai_summary_category');
+
+  /**
+   * AI summary duration title.
+   */
+  public static readonly AI_SUMMARY_DURATION: ResourceStr = $r('app.string.ai_summary_duration');
+
+  /**
+   * AI summary generated time title.
+   */
+  public static readonly AI_SUMMARY_GENERATED_TIME: ResourceStr = $r('app.string.ai_summary_generated_time');
+
+  /**
+   * AI summary error message.
+   */
+  public static readonly AI_SUMMARY_ERROR: ResourceStr = $r('app.string.ai_summary_error');
+
+  /**
+   * AI summary empty state text.
+   */
+  public static readonly AI_SUMMARY_EMPTY: ResourceStr = $r('app.string.ai_summary_empty');
 }

@@ -75,6 +75,58 @@
     {
       "name": "speed",
       "value": "speed"
+    },
+    {
+      "name": "ai_summary_title",
+      "value": "AI Video Summary"
+    },
+    {
+      "name": "ai_summary_loading",
+      "value": "AI is analyzing video content..."
+    },
+    {
+      "name": "ai_summary_generate",
+      "value": "Generate AI Summary"
+    },
+    {
+      "name": "ai_summary_regenerate",
+      "value": "Regenerate"
+    },
+    {
+      "name": "ai_summary_key_points",
+      "value": "Key Points"
+    },
+    {
+      "name": "ai_summary_tags",
+      "value": "Tags"
+    },
+    {
+      "name": "ai_summary_category",
+      "value": "Category"
+    },
+    {
+      "name": "ai_summary_duration",
+      "value": "Duration"
+    },
+    {
+      "name": "ai_summary_generated_time",
+      "value": "Generated Time"
+    },
+    {
+      "name": "ai_summary_error",
+      "value": "AI summary generation failed, please try again"
+    },
+    {
+      "name": "ai_summary_empty",
+      "value": "No AI summary yet, click button to generate"
+    },
+    {
+      "name": "expand_more",
+      "value": "Show more"
+    },
+    {
+      "name": "collapse",
+      "value": "Collapse"
     }
   ]
 }

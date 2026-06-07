@@ -16,6 +16,7 @@
 import { AvPlayerUtil, CommonConstants } from '@ohos/commons';
 import { DetailConstants } from '../constants/DetailConstants';
 import { TVVideoPlayer } from './TVVideoPlayer';
+import { AISummary } from './AISummary';
 
 @Component
 export struct TVVideoDetailView {
@@ -90,6 +91,19 @@ export struct TVVideoDetailView {
   videoDetailContent() {
     Column() {
       this.videoDescribe();
+      
+      // AI视频总结组件（智慧屏版本）
+      Column() {
+        AISummary({
+          videoIdProp: 'video1',
+          videoTitleProp: '华为春季旗舰新品发布会'
+        })
+        .margin({ top: '24vp', bottom: '24vp' })
+      }
+      .width('100%')
+      .padding({ left: '56vp', right: '56vp' })
+      .visibility(this.isPlaying ? Visibility.None : Visibility.Visible)
+      
       this.videoEpisodes();
     }
     .position({ bottom: '0vp' })
