@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "你画我猜 - 分布式多人互动游戏"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "你画我猜游戏主入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "你画我猜"
+    },
+    {
+      "name": "app_name",
+      "value": "你画我猜"
+    },
+    {
+      "name": "distributed_permission_reason",
+      "value": "需要使用分布式能力实现多设备协同游戏体验"
+    },
+    {
+      "name": "vibrate_permission_reason",
+      "value": "猜对答案时提供震动反馈增强游戏体验"
+    }
+  ]
+}

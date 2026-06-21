@@ -1,0 +1,9 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "你画我猜 - 分布式多人游戏",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {}
+}
